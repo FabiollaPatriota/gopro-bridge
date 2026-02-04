@@ -1,0 +1,40 @@
+# Gradle
+.gradle/
+build/
+
+# Local configuration file (SDK path, etc)
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keystore files (NUNCA subir isso!)
+*.jks
+*.keystore
+
+# External native build
+.externalNativeBuild/
+.cxx/
+
+# Captures
+captures/
+
+# Generated files
+*.apk
+*.aab
+
+# Kotlin
+*.kotlin_module
+
+# Profiling
+profile/
