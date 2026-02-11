@@ -1,6 +1,7 @@
 plugins {
     // Do not apply org.jetbrains.kotlin.android here to avoid duplicate Kotlin extension registration.
     alias(libs.plugins.android.application)
+    alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
 }
 
