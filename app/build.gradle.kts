@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
 }
 
@@ -39,6 +40,7 @@ android {
 dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.8.4")
     implementation(libs.androidx.activity.compose)
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.4")
     //noinspection NewerVersionAvailable
